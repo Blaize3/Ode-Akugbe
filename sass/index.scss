@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700,900|Rouge+Script');
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Rouge Script', cursive;
+// font-family: 'Open Sans', sans-serif;
+
+// import config file and helper
+@import 'abstracts/color';
+@import 'abstracts/text-scheme';
+
+//import vendor settings
+@import 'vendor/normalize';
+
+//import base setting
+@import 'base/base';
+@import 'base/typography';
+
+// import layouts settings
+@import 'layout/welcome';
+@import 'layout/navigation';
+@import 'layout/quotes';
+@import 'layout/about';
+@import 'layout/my-work';
+@import 'layout/contact';
+
+// import components setting
+@import 'components/form';

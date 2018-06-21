@@ -1,0 +1,16 @@
+{
+  "name": "Ode-Akugbe-s-Portfolio",
+  "version": "1.0.0",
+  "description": "Ode Akugbe's biography online resume.",
+  "scripts": {
+    "start": "concurrently \"npm run gulp\" \"npm run lite\"",
+    "lite": "lite-server",
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "lite-server": "^2.3.0"
+  }
+}
